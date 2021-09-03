@@ -12,8 +12,12 @@ public class Main {
 		String name = s.next();
 		System.out.print("나이 입력:");
 		int age = s.nextInt();
+		s.nextLine();
+		System.out.print("전공 입력:");
+		String major = s.nextLine();
 		System.out.println("name: "+ name); 
 		System.out.println("age: " + age); 
+		System.out.println("major: " + major);
 	}
 
 }
